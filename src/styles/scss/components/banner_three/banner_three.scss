@@ -1,0 +1,49 @@
+.banner_three{
+  background-color: #F5F8FF;
+  padding: 170px 270px 80px;
+  display: flex;
+  gap: 50px;
+
+}
+.banner_three-left{
+  /*width: 40%;*/
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.banner_three-left h3{
+  font-size: map-get($font-sizes,"xs");
+  color: map-get($font-color,"blue");
+}
+
+.banner_three-left h2{
+  font-size: map-get($font-sizes,"xxl");
+  color: map-get($font-color,"blue");
+}
+
+.banner_three-left p{
+  width: 61%;
+  font-size: map-get($font-sizes,"md");
+  color: map-get($font-color,"blue-light");
+  line-height: 20px;
+}
+
+.banner_three-right{
+  position: relative;
+}
+/*.banner_three-right-image-1{
+  width: 600px;
+  height: 300px;
+}*/
+.banner_three-right-image-2{
+  position: absolute;
+  left: -81px;
+  top: 60px;
+}
+
+.banner_three-right-image-3{
+  position: absolute;
+  width: 60%;
+  left: 210px;
+  top: 40px;
+}

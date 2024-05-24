@@ -1,0 +1,26 @@
+.banner_nine{
+  background-color: rgba(104, 136, 255, 1);
+  background-image: linear-gradient(167deg, rgba(104, 136, 255, 1) 0%, rgba(94, 128, 255, 1) 100%);
+  padding: 91px 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+.banner_nine h3{
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.banner_nine h2{
+  font-size: 48px;
+  color: #FFFFFF;
+}
+.banner_nine h2 > span{
+  font-weight: bold;
+}
+.banner_nine p{
+  text-align: center;
+  font-size: 15px;
+  line-height: 19px;
+  color: #DFE2EF;
+}

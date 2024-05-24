@@ -1,0 +1,626 @@
+/* Reset margin, padding, and border */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Set font properties to inherit */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Remove default list styling */
+ol, ul {
+  list-style: none;
+}
+
+/* Set border-box sizing for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove text decoration from anchors */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Set tables to border-collapse */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset form elements */
+input, button, textarea, select {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+/* Responsive images and media */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove the outline on focused elements when they are also active or hovered */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* Prevent iOS font size adjustments after orientation changes */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* Reset body */
+body {
+  line-height: 1;
+  background: white;
+  color: black;
+}
+
+* {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 113px;
+  height: 43px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn_autosize {
+  padding: 13px 15px;
+  width: auto;
+  height: 43px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn_blue {
+  background-color: #D2E1FF;
+  color: #3A79FF;
+  cursor: pointer;
+}
+
+.btn_blue_white-banner-ten {
+  background-color: #4C85FF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  width: 150px;
+  height: 59px;
+  cursor: pointer;
+}
+
+.btn_blue_white {
+  background-color: #4C85FF;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn_white_blue {
+  background-color: #FFFFFF;
+  color: #4C85FF;
+  cursor: pointer;
+}
+
+.btn_red {
+  background-color: #FFD7D7;
+  color: #D43F3F;
+  cursor: pointer;
+}
+
+.btn_grey {
+  background-color: transparent;
+  color: #aeaebb;
+  border: 1px solid #ADB4D2;
+  cursor: pointer;
+}
+
+.btn_transparent {
+  background-color: transparent;
+  color: #C7D3FF;
+  border: 1px solid #ADB4D2;
+  cursor: pointer;
+}
+
+.header .active {
+  color: #3A79FF;
+}
+
+.header {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  gap: 42px;
+  align-items: center;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  background-color: #5E81FE;
+  border-radius: 50%;
+}
+
+.header__nav nav {
+  display: flex;
+  gap: 42px;
+}
+
+.header__nav nav a {
+  color: #697CA6;
+}
+
+.header__contacts {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  align-items: center;
+}
+
+.header__contacts i {
+  color: #697CA6;
+}
+
+.banner__one {
+  background: url(/src/assets/images/png/bg-banner_one.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 80px 15px 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  text-align: center;
+}
+
+.banner__one h3 {
+  font-size: 10px;
+  color: #3D4F9F;
+}
+
+.banner__one h2 {
+  font-size: 48px;
+}
+
+.banner__one h2 span {
+  color: #3D4F9F;
+}
+
+.banner__one p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #8D96BD;
+  width: 30%;
+}
+
+.banner_two {
+  padding: 58px 276px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}
+
+.banner_three {
+  background-color: #F5F8FF;
+  padding: 170px 270px 80px;
+  display: flex;
+  gap: 50px;
+}
+
+.banner_three-left {
+  /*width: 40%;*/
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.banner_three-left h3 {
+  font-size: 10px;
+  color: #3D4F9F;
+}
+
+.banner_three-left h2 {
+  font-size: 36px;
+  color: #3D4F9F;
+}
+
+.banner_three-left p {
+  width: 61%;
+  font-size: 15px;
+  color: #8D96BD;
+  line-height: 20px;
+}
+
+.banner_three-right {
+  position: relative;
+}
+
+/*.banner_three-right-image-1{
+  width: 600px;
+  height: 300px;
+}*/
+.banner_three-right-image-2 {
+  position: absolute;
+  left: -81px;
+  top: 60px;
+}
+
+.banner_three-right-image-3 {
+  position: absolute;
+  width: 60%;
+  left: 210px;
+  top: 40px;
+}
+
+.banner_four {
+  padding: 170px 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 92px;
+}
+
+.banner_four-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner_four h3 {
+  font-size: 10px;
+  color: #3D4F9F;
+}
+
+.banner_four h2 {
+  font-size: 24px;
+  color: #3D4F9F;
+}
+
+.banner_four-items {
+  /*width: 25%;*/
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.banner_four-item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner_four-item h2 {
+  font-size: 14px;
+  color: #4074F8;
+}
+
+.banner_four-item p {
+  font-size: 10px;
+  line-height: 18px;
+  color: #ADB3CB;
+}
+
+.banner_four-buttons {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+
+.banner_four-buttons p {
+  font-size: 14px;
+  color: #ADB3CB;
+}
+
+.banner_five {
+  display: flex;
+}
+
+.banner_five-left {
+  width: 50%;
+  padding: 66px 90px;
+  background-color: #4074F8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  gap: 24px;
+}
+
+.banner_five-left h2 {
+  font-size: 48px;
+  color: white;
+}
+
+.banner_five-left p {
+  width: 45%;
+  font-size: 18px;
+  color: white;
+  line-height: 22px;
+}
+
+.banner_five-right {
+  width: 50%;
+  padding: 66px 90px;
+  background-color: #D8E3FE;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 24px;
+}
+
+.banner_five-right h2 {
+  font-size: 48px;
+  color: #4074F8;
+}
+
+.banner_five-right p {
+  width: 45%;
+  font-size: 18px;
+  color: #4074F8;
+  line-height: 22px;
+}
+
+.banner_six {
+  padding: 104px 241px 120px;
+  background-color: #F5F8FF;
+  display: flex;
+  flex-direction: column;
+  gap: 92px;
+}
+
+.banner_six-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.banner_six-title h3 {
+  font-size: 10px;
+  color: #3D4F9F;
+}
+
+.banner_six-title h2 {
+  font-size: 24px;
+  color: #3D4F9F;
+}
+
+.banner_six-items {
+  padding: 35px 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.banner_six-description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.banner_six-description h2 {
+  font-size: 36px;
+  color: #3D4F9F;
+}
+
+.banner_six-description p {
+  font-size: 14px;
+  color: #8D96BD;
+  line-height: 19px;
+}
+
+.banner_seven {
+  background-color: #F6F9FF;
+  padding: 110px 240px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.banner_seven-title {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.banner_seven-title h3 {
+  font-size: 10px;
+  color: #3D4F9F;
+}
+
+.banner_seven-title h2 {
+  font-size: 36px;
+  color: #3D4F9F;
+}
+
+.banner_seven-title p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #ADB3CB;
+}
+
+.banner_seven-description p {
+  width: 50%;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ADB3CB;
+}
+
+.banner_seven-description {
+  position: relative;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: center;
+  /*width: 430px;
+  height: 300px;*/
+  background-color: white;
+}
+
+.banner_seven-description img {
+  position: absolute;
+  left: 200px;
+  bottom: -30px;
+}
+
+.banner_eight {
+  padding: 170px 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.banner_eight-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.banner_eight-title h3 {
+  font-size: 10px;
+  color: #3D4F9F;
+}
+
+.banner_eight-title h2 {
+  font-size: 24px;
+  color: #3D4F9F;
+}
+
+.banner_eight-description-item details {
+  margin-bottom: 20px;
+}
+
+.banner_nine {
+  background-color: rgb(104, 136, 255);
+  background-image: linear-gradient(167deg, rgb(104, 136, 255) 0%, rgb(94, 128, 255) 100%);
+  padding: 91px 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.banner_nine h3 {
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+.banner_nine h2 {
+  font-size: 48px;
+  color: #FFFFFF;
+}
+
+.banner_nine h2 > span {
+  font-weight: bold;
+}
+
+.banner_nine p {
+  text-align: center;
+  font-size: 15px;
+  line-height: 19px;
+  color: #DFE2EF;
+}
+
+.banner_ten {
+  padding: 118px 276px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  border-bottom: 1px solid rgba(133, 133, 133, 0.3098039216);
+}
+
+.banner_ten-title {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.banner_ten-title h3 {
+  color: #3D4F9F;
+  font-size: 18px;
+}
+
+.banner_ten-title p {
+  color: #8D96BD;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.banner_ten-form input {
+  padding-left: 23px;
+  width: 279px;
+  height: 60px;
+  background-color: #EFEFF7;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 50px 100px;
+}
+
+.copy {
+  margin-left: 160px;
+  font-size: 12px;
+  color: #AEB8D0;
+}
+
+/*# sourceMappingURL=home-page.css.map */

@@ -1,0 +1,48 @@
+.banner_six{
+  padding: 104px 241px 120px;
+  background-color: #F5F8FF;
+  display: flex;
+  flex-direction: column;
+  gap: 92px;
+}
+.banner_six-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.banner_six-title h3{
+  font-size: map-get($font-sizes,"xs");
+  color: map-get($font-color,"blue");
+}
+.banner_six-title h2{
+  font-size: map-get($font-sizes,"xl");
+  color: map-get($font-color,"blue");
+}
+
+.banner_six-items{
+  padding: 35px 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.banner_six-description{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.banner_six-description h2{
+  font-size: map-get($font-sizes,"xxl");
+  color: map-get($font-color,"blue");
+}
+
+.banner_six-description p{
+  font-size: map-get($font-sizes,"sm");
+  color: map-get($font-color,"blue-light");
+  line-height: 19px;
+}
+
+
